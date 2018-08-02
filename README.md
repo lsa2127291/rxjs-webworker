@@ -1,6 +1,9 @@
 ## rxjs-webworker
 RXJS extenstions for web worker based on rxjs6
 
+### Steps
+`npm install rxjs-webworker`
+
 ### Observables
 
 #### fromWorker()
@@ -22,7 +25,7 @@ fromWorker(e => {
   }
   self.postMessage(`${e.data} ${count}`)
 }, 'hello').subscribe(value => {
-  // hello 1000000
+  // hello 1000000
   console.log(value)
 })
 ```
