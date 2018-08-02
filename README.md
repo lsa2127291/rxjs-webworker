@@ -2,7 +2,7 @@
 RXJS extenstions for web worker based on rxjs6
 
 ### Steps
-npm install rxjs-webworker
+`npm install rxjs-webworker`
 
 ### Observables
 
