@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "name": "rxjs-webworker",
   "description": "webworker for rxjs",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "homepage": "https://github.com/lsa2127291/rxjs-webworker.git",
   "repository": {
     "type": "git",
@@ -28,7 +28,9 @@
     "clean": "^4.0.2",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
+    "gulp-rename": "^1.4.0",
     "gulp-rollup": "^2.16.2",
+    "gulp-uglify": "^3.0.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-node-resolve": "^3.3.0",
     "rxjs": "^6.2.2",
