@@ -1,4 +1,4 @@
-import { fromWorker } from '../dist'
+import { fromWorker } from '../dist/index.min'
 
 const fromWorker$ = fromWorker(e => {
   const msg = e.data
